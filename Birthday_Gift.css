@@ -1,0 +1,94 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background:linear-gradient(#a2d2ff , #EFB0C9) ;
+}
+
+#main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 24pt;
+    margin: 30px;
+}
+
+#topImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    border: 10px solid #EFB0C9;
+}
+
+
+.textColor {
+    color: #ffffff;
+    text-shadow: 0 0 2px black;
+}
+
+.text {
+    margin-bottom: 0;
+    font-size: 18pt;
+    padding: 10px 20px;
+    background: #EFB0C9;
+    border-radius: 5px;
+}
+
+.img-gift {
+    background-image: url(/images/gift-cover.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-tittle {
+    margin-bottom: 5px;
+}
+
+#imgHover1:hover {
+    background-image: url(/images/lion.jpg);
+    background-size: cover;
+    
+   
+}
+
+#imgHover2:hover {
+    background-image: url(/images/univers.jpg);
+}
+
+#imgHover3:hover { 
+    background-image: url(/images/pngwing.com.png);
+}
+
+#imgHover4:hover {
+    background-image: url(/images/my_pic.jpg);
+    background-size: cover;
+}
+
+#img-gift-last {
+    height: 200px;
+}
+
+#img-gift-last:hover {
+    background-image: url(/images/pngwing.com.png);
+    
+}
+
+footer {
+    margin: 0 auto;
+    font-size: 14pt;
+    font-style: ;
+    margin-top: 20px;
+    width: 400px;
+}
+
